@@ -13,7 +13,7 @@ function App() {
   
     try {
       // Send POST request to backend
-      const response = await fetch('https://insta-backend-z7gz.onrender.com/login', {
+      const response = await fetch('https://insta-backend-z7gz.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
